@@ -61,11 +61,11 @@ static id keyUITableViewView, keyUITableViewMQRefreshAction, keyUITableViewMQRef
     [self increaseKeyPathObserverCount];
 }
 
-- (void)dealloc {
-    if ([self keyPathObserverCount] > 0) {
-        [self removeObserver:self forKeyPath:@"contentOffset"];
-    }
-}
+//- (void)dealloc {
+//    if ([self keyPathObserverCount] > 0) {
+//        [self removeObserver:self forKeyPath:@"contentOffset"];
+//    }
+//}
 
 - (void)startAnimation {
     if (self.refreshView.status != MQRefreshStatusEnd) {

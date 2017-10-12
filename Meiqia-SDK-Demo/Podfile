@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Meiqia-SDK-Demo' do
+  use_frameworks!
+
+  pod 'Meiqia', :path => '../'
+
+  target 'Meiqia-SDK-DemoTests' do
+    inherit! :search_paths
+  end
+
+  target 'Meiqia-SDK-DemoUITests' do
+    inherit! :search_paths
+  end
+
+end

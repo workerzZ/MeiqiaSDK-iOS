@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		63558F821EEE7B3E00B12545 /* FEZ.png in Resources */ = {isa = PBXBuildFile; fileRef = 63558F811EEE7B3E00B12545 /* FEZ.png */; };
+		688DBA190AC2E1A9C3539D05 /* Pods_Meiqia_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02CB7609CF8480EE71EED1 /* Pods_Meiqia_SDK_DemoUITests.framework */; };
+		77AD72CF9ED4EF326E72F733 /* Pods_Meiqia_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806D075C70B7E3CB4475CCE7 /* Pods_Meiqia_SDK_Demo.framework */; };
 		8904283D1F668A5B003B7F2D /* MQInputToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8904283C1F668A5B003B7F2D /* MQInputToolView.m */; };
 		CC330EC91C317E2D0088E648 /* ijinmaoAvatar.png in Resources */ = {isa = PBXBuildFile; fileRef = CC330EC81C317E2D0088E648 /* ijinmaoAvatar.png */; };
 		CCE9D10B1C1812F6004E862E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE9D10A1C1812F6004E862E /* main.m */; };
@@ -23,6 +25,7 @@
 		CCE9D1461C181399004E862E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE9D1451C181399004E862E /* SystemConfiguration.framework */; };
 		CCE9D1481C18139E004E862E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE9D1471C18139E004E862E /* MobileCoreServices.framework */; };
 		CCE9D14D1C1813BE004E862E /* DevelopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE9D14C1C1813BE004E862E /* DevelopViewController.m */; };
+		DBBC603147E4B2E4A36EC96A /* Pods_Meiqia_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3525FD8737163B23ABFD429C /* Pods_Meiqia_SDK_DemoTests.framework */; };
 		E40C2C7B1D2B710300744577 /* testdata.txt in Resources */ = {isa = PBXBuildFile; fileRef = E40C2C7A1D2B710300744577 /* testdata.txt */; };
 		E41524611DE69298003574D4 /* Meiqia.h in Headers */ = {isa = PBXBuildFile; fileRef = E41524601DE69244003574D4 /* Meiqia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41524761DE6E92E003574D4 /* MeiQiaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41524751DE6E92E003574D4 /* MeiQiaSDK.framework */; };
@@ -483,9 +486,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A5A646DE480701076429D86 /* Pods-Meiqia-SDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meiqia-SDK-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meiqia-SDK-Demo/Pods-Meiqia-SDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		18F552C7C0CC309D2D556FCC /* Pods-Meiqia-SDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meiqia-SDK-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meiqia-SDK-DemoTests/Pods-Meiqia-SDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3525FD8737163B23ABFD429C /* Pods_Meiqia_SDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meiqia_SDK_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63558F811EEE7B3E00B12545 /* FEZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEZ.png; sourceTree = "<group>"; };
+		664E57A43E5914951CB6FD41 /* Pods-Meiqia-SDK-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meiqia-SDK-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meiqia-SDK-DemoTests/Pods-Meiqia-SDK-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2C7541DAF7D155E7010ADC /* Pods-Meiqia-SDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meiqia-SDK-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meiqia-SDK-Demo/Pods-Meiqia-SDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		806D075C70B7E3CB4475CCE7 /* Pods_Meiqia_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meiqia_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8904283B1F668A5B003B7F2D /* MQInputToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQInputToolView.h; sourceTree = "<group>"; };
 		8904283C1F668A5B003B7F2D /* MQInputToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQInputToolView.m; sourceTree = "<group>"; };
+		8E02CB7609CF8480EE71EED1 /* Pods_Meiqia_SDK_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meiqia_SDK_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E636B55BF614356004403F3 /* Pods-Meiqia-SDK-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meiqia-SDK-DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meiqia-SDK-DemoUITests/Pods-Meiqia-SDK-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A25448A5CB6A20C021D3864C /* Pods-Meiqia-SDK-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meiqia-SDK-DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meiqia-SDK-DemoUITests/Pods-Meiqia-SDK-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC330EC81C317E2D0088E648 /* ijinmaoAvatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ijinmaoAvatar.png; sourceTree = "<group>"; };
 		CCE9D1061C1812F6004E862E /* Meiqia-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meiqia-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE9D10A1C1812F6004E862E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -813,6 +825,7 @@
 				CCE9D1441C181393004E862E /* CoreTelephony.framework in Frameworks */,
 				CCE9D1421C18138C004E862E /* AVFoundation.framework in Frameworks */,
 				CCE9D1401C181385004E862E /* libicucore.tbd in Frameworks */,
+				77AD72CF9ED4EF326E72F733 /* Pods_Meiqia_SDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,6 +833,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBC603147E4B2E4A36EC96A /* Pods_Meiqia_SDK_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,6 +841,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688DBA190AC2E1A9C3539D05 /* Pods_Meiqia_SDK_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,6 +863,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611256AAAD40C033D26B6EBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A646DE480701076429D86 /* Pods-Meiqia-SDK-Demo.debug.xcconfig */,
+				7E2C7541DAF7D155E7010ADC /* Pods-Meiqia-SDK-Demo.release.xcconfig */,
+				664E57A43E5914951CB6FD41 /* Pods-Meiqia-SDK-DemoTests.debug.xcconfig */,
+				18F552C7C0CC309D2D556FCC /* Pods-Meiqia-SDK-DemoTests.release.xcconfig */,
+				A25448A5CB6A20C021D3864C /* Pods-Meiqia-SDK-DemoUITests.debug.xcconfig */,
+				9E636B55BF614356004403F3 /* Pods-Meiqia-SDK-DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CCE9D0FD1C1812F6004E862E = {
 			isa = PBXGroup;
 			children = (
@@ -861,6 +889,7 @@
 				CCE9D1221C1812F6004E862E /* Meiqia-SDK-DemoTests */,
 				CCE9D12D1C1812F6004E862E /* Meiqia-SDK-DemoUITests */,
 				CCE9D1071C1812F6004E862E /* Products */,
+				611256AAAD40C033D26B6EBB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -936,6 +965,9 @@
 				CCE9D1431C181393004E862E /* CoreTelephony.framework */,
 				CCE9D1411C18138C004E862E /* AVFoundation.framework */,
 				CCE9D13F1C181385004E862E /* libicucore.tbd */,
+				806D075C70B7E3CB4475CCE7 /* Pods_Meiqia_SDK_Demo.framework */,
+				3525FD8737163B23ABFD429C /* Pods_Meiqia_SDK_DemoTests.framework */,
+				8E02CB7609CF8480EE71EED1 /* Pods_Meiqia_SDK_DemoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1804,10 +1836,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCE9D1331C1812F6004E862E /* Build configuration list for PBXNativeTarget "Meiqia-SDK-Demo" */;
 			buildPhases = (
+				9AA54589C44C1DF125467A0C /* [CP] Check Pods Manifest.lock */,
 				CCE9D1021C1812F6004E862E /* Sources */,
 				CCE9D1031C1812F6004E862E /* Frameworks */,
 				CCE9D1041C1812F6004E862E /* Resources */,
 				E4275AEC1DEED6FC0011B32B /* Embed Frameworks */,
+				04244BFD4412A63B6F3523AC /* [CP] Embed Pods Frameworks */,
+				EDFB9B4CEA7D393C5756E5A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1822,9 +1857,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCE9D1361C1812F6004E862E /* Build configuration list for PBXNativeTarget "Meiqia-SDK-DemoTests" */;
 			buildPhases = (
+				B8B2EFA023BD50C27D7D4F95 /* [CP] Check Pods Manifest.lock */,
 				CCE9D11B1C1812F6004E862E /* Sources */,
 				CCE9D11C1C1812F6004E862E /* Frameworks */,
 				CCE9D11D1C1812F6004E862E /* Resources */,
+				BFBEF2AED3D62A772E1B5430 /* [CP] Embed Pods Frameworks */,
+				48B724FD96A84B6B97BBFD10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1840,9 +1878,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCE9D1391C1812F6004E862E /* Build configuration list for PBXNativeTarget "Meiqia-SDK-DemoUITests" */;
 			buildPhases = (
+				FB7F8B5C9053BFBEF0AFEC48 /* [CP] Check Pods Manifest.lock */,
 				CCE9D1261C1812F6004E862E /* Sources */,
 				CCE9D1271C1812F6004E862E /* Frameworks */,
 				CCE9D1281C1812F6004E862E /* Resources */,
+				E2A502B93C3F2390B4735CA0 /* [CP] Embed Pods Frameworks */,
+				13FBAABFFB2CB4F78FA0D929 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1965,6 +2006,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04244BFD4412A63B6F3523AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-Demo/Pods-Meiqia-SDK-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Meiqia/Meiqia.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Meiqia.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-Demo/Pods-Meiqia-SDK-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13FBAABFFB2CB4F78FA0D929 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-DemoUITests/Pods-Meiqia-SDK-DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B724FD96A84B6B97BBFD10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-DemoTests/Pods-Meiqia-SDK-DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA54589C44C1DF125467A0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meiqia-SDK-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B2EFA023BD50C27D7D4F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meiqia-SDK-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBEF2AED3D62A772E1B5430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-DemoTests/Pods-Meiqia-SDK-DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A502B93C3F2390B4735CA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-DemoUITests/Pods-Meiqia-SDK-DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDFB9B4CEA7D393C5756E5A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meiqia-SDK-Demo/Pods-Meiqia-SDK-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7F8B5C9053BFBEF0AFEC48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meiqia-SDK-DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCE9D1021C1812F6004E862E /* Sources */ = {
@@ -2392,6 +2585,7 @@
 		};
 		CCE9D1341C1812F6004E862E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5A646DE480701076429D86 /* Pods-Meiqia-SDK-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2426,6 +2620,7 @@
 		};
 		CCE9D1351C1812F6004E862E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2C7541DAF7D155E7010ADC /* Pods-Meiqia-SDK-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2459,6 +2654,7 @@
 		};
 		CCE9D1371C1812F6004E862E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664E57A43E5914951CB6FD41 /* Pods-Meiqia-SDK-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2476,6 +2672,7 @@
 		};
 		CCE9D1381C1812F6004E862E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F552C7C0CC309D2D556FCC /* Pods-Meiqia-SDK-DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2493,6 +2690,7 @@
 		};
 		CCE9D13A1C1812F6004E862E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25448A5CB6A20C021D3864C /* Pods-Meiqia-SDK-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Meiqia-SDK-DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2505,6 +2703,7 @@
 		};
 		CCE9D13B1C1812F6004E862E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E636B55BF614356004403F3 /* Pods-Meiqia-SDK-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Meiqia-SDK-DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

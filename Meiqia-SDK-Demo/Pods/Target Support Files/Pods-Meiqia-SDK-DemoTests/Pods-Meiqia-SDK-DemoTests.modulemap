@@ -1,0 +1,6 @@
+framework module Pods_Meiqia_SDK_DemoTests {
+  umbrella header "Pods-Meiqia-SDK-DemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Meiqia"
-  s.version          = "3.4.2"
+  s.version          = "3.4.3"
   s.summary          = "美洽官方 SDK for iOS"
   s.description      = "美洽官方的 iOS SDK"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.documentation_url = "https://github.com/Meiqia/MeiqiaSDK-iOS/wiki"
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
+  s.dependency 'MJRefresh'
   s.subspec 'MeiqiaSDK' do |ss|
     ss.frameworks =  'AVFoundation', 'CoreTelephony', 'SystemConfiguration', 'MobileCoreServices'
     ss.vendored_frameworks = 'Meiqia-SDK-files/MeiQiaSDK.framework'
